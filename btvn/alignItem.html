@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items Example</title>
+    <style>
+        .container {
+            display: flex;
+            height: 200px; /* Chiều cao của container */
+            border: 2px solid black;
+            margin: 20px;
+        }
+
+        .item {
+            background-color: lightblue;
+            border: 1px solid blue;
+            width: 80px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        .start {
+            align-items: flex-start; /* Căn đầu */
+        }
+
+        .end {
+            align-items: flex-end; /* Căn cuối */
+        }
+
+        .center {
+            align-items: center; /* Căn giữa */
+        }
+
+        .baseline {
+            align-items: baseline; /* Căn theo baseline */
+        }
+
+        .stretch {
+            align-items: stretch; /* Căn trải dài */
+        }
+    </style>
+</head>
+<body>
+    <h2>Align Items Example</h2>
+
+    <div class="container start">
+        <div class="item" style="height: 50px;">Item 1 start</div>
+        <div class="item" style="height: 100px;">Item 2</div>
+        <div class="item" style="height: 75px;">Item 3</div>
+    </div>
+
+    <div class="container end">
+        <div class="item" style="height: 50px;">Item 1 end</div>
+        <div class="item" style="height: 100px;">Item 2</div>
+        <div class="item" style="height: 75px;">Item 3</div>
+    </div>
+
+    <div class="container center">
+        <div class="item" style="height: 50px;">Item 1 center</div>
+        <div class="item" style="height: 100px;">Item 2</div>
+        <div class="item" style="height: 75px;">Item 3</div>
+    </div>
+
+    <div class="container baseline">
+        <div class="item" style="height: 50px;">Item 1 baseline</div>
+        <div class="item" style="height: 100px;">Item 2</div>
+        <div class="item" style="height: 75px;">Item 3</div>
+    </div>
+
+    <div class="container stretch">
+        <div class="item" style="height: 50px;">Item 1 stretch</div>
+        <div class="item" style="height: 100px;">Item 2</div>
+        <div class="item" style="height: 75px;">Item 3</div>
+    </div>
+</body>
+</html>
