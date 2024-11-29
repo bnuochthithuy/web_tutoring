@@ -139,16 +139,12 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 20px 0;
-    background-color:#EBD96B; /* Màu vàng nền */
+    background-color:#EBD96B; 
 }
 .nav_bar img {
     max-width: 120px; /* Đặt kích thước logo cố định */
     height: auto; /* Đảm bảo tỉ lệ hình ảnh chính xác */
-    transition: transform 0.3s ease; /* Hiệu ứng khi hover */
     background: transparent;
-}
-.nav_bar img:hover {
-    transform: scale(1.1); /* Phóng to nhẹ khi hover */
 }
 .product_new {
     display: flex;
@@ -159,56 +155,50 @@ body {
 }
 
 .product_new h2 {
-font-size: 24px;
-font-weight: bold;
-margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
 }
 
-
 .products_container {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-padding: 20px;
-margin-top: 50px;
+    display: flex;
+    justify-content:space-between;
+    gap:40px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
 .product {
-width: 32%;
-margin-bottom: 20px;
-background-color: #fff;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 32%;
+    margin-bottom: 20px;
+    background-color: #fff;
 }
 
 .product_img img {
-width: 100%;
-height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .product_details {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .product_name {
-margin: 0;
-font-size: 16px;
+    margin: 0;
+    font-size: 16px;
 }
 
 .product_icon_right {
-font-size: 20px;
-color: #333;
+    font-size: 20px;
+    color: #333;
 }
 .product_img img {
-width: 100%;
-height: auto;
-transition: transform 0.3s ease;
-}
-
-.product_img img:hover {
-transform: scale(1.1);
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
 }
 
 .silder-bar {
@@ -235,7 +225,10 @@ transform: scale(1.1);
     font-size: 36px;
     line-height: 1.2;
 }
-
+.title1{
+    background-color:rgb(255, 255, 253);
+    width: 160px;
+}
 .details {
     margin-top: 10px;
     font-size: 18px;
@@ -243,13 +236,14 @@ transform: scale(1.1);
 }
 
 .date1 {
-    margin-top: 20px;
     font-size: 16px;
 }
 
 .date2 {
+    display: block;
     font-size: 14px;
     color: #060404;
+    font-weight: bold;
 }
 .left-slider-bar img {
     width: 68%; /* Tùy chỉnh kích thước ảnh */
@@ -261,12 +255,9 @@ transform: scale(1.1);
     padding: 10px 20px;
     background-color: #000;
     color: #fff;
-    border: none;
-    font-size: 26px;
-}
-
-.right-slider-bar button:hover {
-    background-color: #9a6363; 
+    border-radius: 3px;
+    font-size: 23px;
+    box-shadow: #000;
 }
 /* ------------------- favorite -------------------------------- */
 
