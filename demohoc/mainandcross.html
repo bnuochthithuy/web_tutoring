@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .container {
+        display: flex; /* Kích hoạt Flexbox */
+        flex-direction: column; /* Trục chính nằm ngang (mặc định) */
+        justify-content: center; /* Căn giữa trên trục chính */
+        align-items: center; /* Căn giữa trên trục phụ */
+        height: 100vh; /* Chiều cao toàn màn hình để dễ quan sát */
+        background-color: #f0f0f0; /* Màu nền */
+    }
+
+    .item {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        background-color: #4caf50; /* Màu xanh lá */
+        color: white;
+        display: flex; /* Flexbox cho nội dung bên trong */
+        justify-content: center; /* Căn giữa nội dung (text) theo trục chính */
+        align-items: center; /* Căn giữa nội dung (text) theo trục phụ */
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
+</body>
+</html>
