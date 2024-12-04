@@ -40,7 +40,6 @@ body {
     font-weight: 600;
     font-size: 14px;
     color: black;
-    cursor: pointer;
 }
 
 .header_nav ul li:hover {
@@ -55,8 +54,7 @@ body {
     font-size: 14px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+
 }
 
 .header_button:hover {
@@ -120,7 +118,6 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     /* transition: background-color 0.3s ease; */
 }
 
@@ -198,7 +195,6 @@ body {
 .product_img img {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease;
 }
 
 .silder-bar {
@@ -208,7 +204,6 @@ body {
     height: 623px;
     padding: 20px;
 }
-
 .right-slider-bar {
     margin-left: 20px;
     text-align: left;
@@ -285,12 +280,6 @@ body {
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-.favourite_item:hover {
-    transform: translateY(-5px);
 }
 
 .products_favourite_img img {
@@ -321,10 +310,6 @@ body {
     font-size: 20px;
     color: #333;
 }
-.products_favourite_img:hover img{
-    transform: scale(0.95); /* Thu nhỏ ảnh */
-    filter: brightness(70%); /* Làm mờ bằng cách giảm độ sáng */
-}
 .right-details i:hover {
     color: #ff5733; /* Màu khi hover */
 }
@@ -333,8 +318,6 @@ body {
 }
 
 /* ------------------- download section --------------------------- */
-
-/* Định dạng tổng quát cho section */
 .download-section {
     display: flex;
     justify-content: space-around;
@@ -353,12 +336,12 @@ body {
 
     line-height: 1.4;
     margin-bottom: 20px;
-    color: #000; /* Màu chữ đen */
+    color: #000; 
 }
 
 .left-content p {
     font-size: 18px;
-    color: #555; /* Màu chữ xám */
+    color: #555;
     margin-bottom: 30px;
     line-height: 1.5;
 }
@@ -372,10 +355,6 @@ body {
 .app-buttons img {
     width: 150px; /* Đặt kích thước cố định cho nút */
     height: auto;
-}
-
-.app-buttons img:hover {
-    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
 }
 /* Phần hình ảnh bên phải */
 .right-introduce img {
